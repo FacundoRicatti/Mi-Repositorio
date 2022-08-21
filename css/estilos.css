@@ -82,24 +82,26 @@ body{
 
 .section2{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 0;
 }
 
 .section2 :hover{
     background-color: #ECA72C;
+    box-shadow: 0 20px 20px rgba(238 190 79 / 20%)
 }
 
 .section3{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 20px 0;
 }
 
 .section3 :hover{
     background-color: #ECA72C;
+    box-shadow: 0 20px 20px rgba(238 190 79 / 20%)
 }
 
 
