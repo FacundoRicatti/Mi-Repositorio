@@ -1,15 +1,33 @@
 body{
     margin: 0;
 }
-
+/*
 .contenedor{
     display: grid;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 150px auto 100px;
+    grid-template-rows: 60px auto 60px;
 
 }
+*/
+/*ESTILOS BOOST*/
 
+.nav-item :hover{
+    color: #ECA72C !important; 
+}
+
+
+.contenedor{
+    background-color: #ffffff;
+}
+
+
+.card :hover{
+    box-shadow: #ECA72C;
+}
+
+
+/*
 .header{
     display: flex;
     grid-area: header;
@@ -17,6 +35,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 .cajaNav{ 
@@ -41,9 +60,11 @@ body{
     color: black;
     
 }
+*/
 
 /*  HASTA ACA ESTILOS DEL HEADER */
 
+/*
 .main{
     grid-area: main;
     background-color: #221E22;
