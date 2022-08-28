@@ -12,8 +12,22 @@ body{
 */
 /*ESTILOS BOOST*/
 
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(68, 62, 62, 0.1);
+    margin-top: 5%;
+}
+
+
 .nav-item :hover{
-    color: #ECA72C !important; 
+    color: rgb(236, 167, 44) !important; 
+}
+
+
+
+.dropdown-menu li :active{
+    background-color: rgb(68, 62, 62) !important;
 }
 
 
@@ -21,11 +35,19 @@ body{
     background-color: #ffffff;
 }
 
-
-.card :hover{
-    box-shadow: #ECA72C;
+button :active{
+background-color: rgb(68, 62, 62) !important;
 }
 
+#titulos-pag{
+    font-size: x-large;
+}
+
+/*.border{
+    
+    border-top: 5px solid #000000;
+}
+*/
 
 /*
 .header{
@@ -129,7 +151,3 @@ body{
 
 /*  HASTA ACA ESTILOS DEL MAIN */
 
-.footer{
-    grid-area: footer;
-    background-color: #ECA72C;
-}
