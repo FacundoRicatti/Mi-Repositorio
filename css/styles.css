@@ -1,0 +1,35 @@
+/*Estilos Main */
+body {
+  margin: 0;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+button :active {
+  background-color: rgb(68, 62, 62) !important;
+}
+
+#titulos-pag {
+  font-size: x-large;
+}
+
+/*Estilos header */
+.nav-item :hover {
+  color: rgb(236, 167, 44) !important;
+}
+
+.dropdown-menu li :active {
+  background-color: rgb(68, 62, 62) !important;
+}
+
+/*Estilos Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(68, 62, 62, 0.1);
+  margin-top: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */
