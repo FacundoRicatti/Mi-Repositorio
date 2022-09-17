@@ -3,10 +3,13 @@
 @import "_variables.scss";
 
 //Partials
-
+@import "_maps.scss";
+@import "_mixins.scss";
+@import "_extends.scss";
 @import "_main.scss";
 @import "_header.scss";
 @import "_footer.scss";
+
 
 
 

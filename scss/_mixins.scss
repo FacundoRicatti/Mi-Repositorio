@@ -1,13 +1,6 @@
-/*Estilos Footer */
-
-/*footer{
+@mixin footer-mixin(){
     display: flex;
     justify-content: center;
     background-color: $background-ligth-black;
     margin-top: 5%;
-}
-*/
-
-.footer{
-    @include footer-mixin ();
 }

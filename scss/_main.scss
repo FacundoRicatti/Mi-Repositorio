@@ -12,4 +12,9 @@ background-color: rgb(68, 62, 62) !important;
 
 #titulos-pag{
     font-size: $font-titulos;
+    background-color: map-get($estilos, colorPrimario);
+}
+
+.main{
+    @extend %mainBase;
 }

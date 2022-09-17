@@ -1,0 +1,36 @@
+.main {
+  background-color: white;
+}
+
+/*Estilos Main */
+body {
+  margin: 0;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+button :active {
+  background-color: rgb(68, 62, 62) !important;
+}
+
+#titulos-pag {
+  font-size: x-large;
+  background-color: red;
+}
+
+/*Estilos Footer */
+/*footer{
+    display: flex;
+    justify-content: center;
+    background-color: $background-ligth-black;
+    margin-top: 5%;
+}
+*/
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(68, 62, 62, 0.1);
+  margin-top: 5%;
+}/*# sourceMappingURL=styles.css.map */
