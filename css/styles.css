@@ -1,26 +1,156 @@
-/*Estilos Main */
-body {
+body{
   margin: 0;
 }
+/*
+.contenedor{
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 60px auto 60px;
 
-.contenedor {
-  background-color: white;
+}
+*/
+/*ESTILOS BOOST*/
+
+footer{
+  display: flex !important; 
+  justify-content: center !important;
+  background-color: rgba(68, 62, 62, 0.1) !important;
+  margin-top: 5% !important;
 }
 
-button :active {
+
+.nav-item :hover{
+  color: rgb(236, 167, 44) !important; 
+}
+
+
+
+.dropdown-menu li :active{
   background-color: rgb(68, 62, 62) !important;
 }
 
-#titulos-pag {
+
+.contenedor{
+  background-color: #ffffff;
+}
+
+button :active{
+background-color: rgb(68, 62, 62) !important;
+}
+
+#titulos-pag{
   font-size: x-large;
 }
 
-/*Estilos Footer */
-footer {
+
+
+
+
+/*.border{
+  
+  border-top: 5px solid #000000;
+}
+*/
+
+/*
+.header{
   display: flex;
-  justify-content: center;
-  background-color: rgba(68, 62, 62, 0.1);
-  margin-top: 5%;
+  grid-area: header;
+  background-color: #ECA72C;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/*# sourceMappingURL=styles.css.map */
+
+
+.cajaNav{ 
+  
+  width: 50%;
+  
+  
+}
+
+.navLista{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  
+  
+}
+
+.navLista li{
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  
+}
+*/
+
+/*  HASTA ACA ESTILOS DEL HEADER */
+
+/*
+.main{
+  grid-area: main;
+  background-color: #221E22;
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.section1 :hover{
+  background-color: #ECA72C;
+  box-shadow: 0 20px 20px rgba(238 190 79 / 20%)
+}
+
+.card{
+  width: 200px;
+  height: 350px;
+  border: solid 2px;
+  border-radius: 20px 0 20px 0;
+}
+
+
+.imagenCard{
+  width: 100%;
+  height: 50%;
+}
+
+.imagencita{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.section2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.section2 :hover{
+  background-color: #ECA72C;
+  box-shadow: 0 20px 20px rgba(238 190 79 / 20%)
+}
+
+.section3{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.section3 :hover{
+  background-color: #ECA72C;
+  box-shadow: 0 20px 20px rgba(238 190 79 / 20%)
+}
+
+
+
+/*  HASTA ACA ESTILOS DEL MAIN */
